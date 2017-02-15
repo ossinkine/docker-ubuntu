@@ -3,6 +3,7 @@ FROM ubuntu
 RUN apt-get update && apt-get install -y \
         curl \
         git \
+        httpie \
         nano \
         php \
         php-xml \
