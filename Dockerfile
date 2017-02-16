@@ -6,6 +6,7 @@ RUN apt-get update && apt-get install -y \
         httpie \
         nano \
         php \
+        php-mbstring \
         php-xml \
         php-zip \
         wget \
