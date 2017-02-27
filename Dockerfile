@@ -3,8 +3,11 @@ FROM ubuntu
 RUN apt-get update && apt-get install -y \
         bzip2 \
         curl \
+        dnsutils \
         git \
         httpie \
+        inetutils-traceroute \
+        iputils-ping \
         nano \
         php \
         php-mbstring \
