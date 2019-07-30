@@ -20,8 +20,7 @@ RUN apt-get update && apt-get install -y \
 
 RUN curl -sL https://deb.nodesource.com/setup_6.x | bash - \
     && apt-get update && apt-get install -y nodejs \
-    && rm -rf /var/lib/apt/lists/* \
-    && npm install -g gulp
+    && rm -rf /var/lib/apt/lists/*
 
 RUN mkdir -p /root/.ssh \
     && echo Host \* >> /root/.ssh/config \
