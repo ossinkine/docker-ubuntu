@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y \
         inetutils-traceroute \
         iputils-ping \
         nano \
-        php \
+        php-cli \
         php-mbstring \
         php-xml \
         php-zip \
